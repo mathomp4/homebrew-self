@@ -5,7 +5,7 @@ class Lmod < Formula
   sha256 "2e7745901e0a918e2043ac8b1276b3bf59ff0793dc45db16788f18e0019aca39"
   license "MIT"
   revision 1
-  url "https://github.com/mathomp4/Lmod.git", branch: "master"
+  head "https://github.com/mathomp4/Lmod.git", branch: "master"
 
 
   bottle do
