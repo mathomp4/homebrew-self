@@ -4,6 +4,8 @@ class Lmod < Formula
   url "https://github.com/mathomp4/Lmod/archive/8.7.31.tar.gz"
   sha256 "2e7745901e0a918e2043ac8b1276b3bf59ff0793dc45db16788f18e0019aca39"
   license "MIT"
+  url "https://github.com/mathomp4/Lmod.git", branch: "master"
+
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "f07efb4f0bd2047152ddd4478964532153ec5f6d869d056e1956aea274e88537"
